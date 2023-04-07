@@ -40,3 +40,16 @@ Para mudar a resolução da tela, coloque dentro do cypress.config.js o comando:
     viewportHeight: 1080
   },
 E a numeração da resolução que desejar 
+
+Instalar um pacote de dependencia que irá conectar com banco de dados
+npm install pg --save-dev
+
+Pelo visual studio code vc deve abrir o arquivo package.json para confirmar a instalação
+  ],
+  "author": "Ricardo Amorim",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.7.0",
+    "pg": "^8.10.0"   <<---------------
+  }
+}
